@@ -1,0 +1,362 @@
+ /* common css */
+ *{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+body{
+    font-family: Open Sans, sans-serif;
+}
+/* common css */
+nav{
+    background-color:#02918b;
+}
+nav .logo{
+    width: 40%;
+    
+}
+nav .menu{
+    width: 60%;
+    text-align: right;
+    
+}
+nav .menu ul li {
+    display: inline-block;
+} 
+a{
+    text-decoration: none;
+}
+nav .menu ul li a{
+    color: white;
+    font-weight: 800;
+    font-size: 12px;
+    padding: 26px 25px;
+    display: block;
+}
+#banner{
+    background-image: url(./man\ img.jpg);
+    width: 100%;
+    height: 725px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.055);
+  }
+  #banner .container{
+    height: 100%;
+  }
+
+.Nayeem{
+    text-align: center;
+    color: white;
+
+    width: 100%;
+    align-items: center;
+}
+.Nayeem h4{
+    font-weight: 400;
+    font-size: 30px;
+}
+.Nayeem h1{
+    font-weight: 800;
+    font-size: 68px;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+}
+#banner {
+    background-image: url(./man\ img.jpg);
+    width: 100%;
+    height: 725px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+  .Nayeem p{
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+  }
+  .Nayeem img{
+    padding: 53px 0px;
+  }
+  .Nayeem a{
+    background-color: #cfc91d;
+    padding: 19px 65px;
+    font-size: 14px;
+    font-weight: 800;
+    color: #0b1016;
+    letter-spacing: 2px;
+  }
+  
+  #banner .container{
+    height: 100%;
+  }
+  #banner .row{
+    height: 100%;
+  }
+
+
+  .heading{
+    text-align: center;
+  }
+  #about .heading h2{
+    color: #02918c;
+    font-size: 46px;
+    font-weight: 800;
+    margin-top: 97px;
+    
+  }
+  .heading p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e8287;
+    padding: 34px 0px 38px 0px;
+   
+  }
+  .para{
+    padding: 41px 0px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e8287;
+  }
+  .para span{
+    color: #7e8287;
+    font-size:23px ;
+    font-weight:800 ;
+  }
+
+  /* Card stard */
+  .card{
+    text-align: center;
+    padding: 123px 0px;
+    width: 25%;
+  }
+   h3{
+    padding: 36px 0px;
+    color: #7e8287;
+    font-size: 16px;
+    font-weight: 800;
+  }
+   p{
+    color: #7e8287;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  .card span{
+   color: #60bab6;
+   font-size: 25px;
+  }
+  /* Card end */
+  /* kybord stard */
+  #kybord{
+    width: 100%;
+    height: 730px;
+    background-image: url(../css/kybord.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+   
+  }
+.services{
+  width: 50%;
+}
+ .part1 h1{
+  color: #02918c;
+  font-size: 46px;
+  font-weight: 800;
+  padding: 75px 0px 0px 0px;
+ }
+
+
+ .part1 p{
+  padding: 44px 0px 0px 0px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #7e8287;
+ }
+ 
+.services .peragraph{
+  color: #7e8287;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 32px 0px 30px 0px;
+  line-height: 28px;
+ }
+ #kybord .services .colam{
+  width: 50%;
+  padding: 25px 0px;
+ }
+
+ #kybord .services .peragraph{
+  line-height: 30px;
+ }
+ #kybord .services .colam p{
+  line-height: 16px;
+ }
+
+ .services .colam span{
+  color: #0a958f;
+  font-size: 25px;
+
+ }
+ .services .colam h3{
+  padding: 18px 0px 22px 0px;
+ }
+ .services .colam p{
+  line-height: 14px;
+ }
+
+  /* kybord end */
+
+/* My work stard */
+#MYWORK{
+text-align: center;
+
+}
+.My h4{
+  color:#02918c ;
+  font-size: 46px;
+  font-weight: 800;
+  padding-top: 110px;
+}
+#MYWORK .My p{
+  padding: 32px 0px;
+  font-size: 16px;
+  font-weight: 400;
+}
+#MYWORK .lorem p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #7e8287;
+  line-height: 25px;
+}
+
+
+/* My work end */
+
+
+/* Myworkpic stard */
+#Myworkpic{
+  margin-top: 83px;
+}
+.sunglas{
+  width: 25%;
+  position: relative;
+}
+
+.sunglas .overley{
+  background-color: rgba(23, 136, 128, 0.85);
+  text-align: center;
+  padding-bottom: 52px;
+  position:absolute;
+  inset: 20px;
+transform: scale(0);
+transition: 0.50s;
+opacity: 0;
+}
+.overley h3{
+  font-size: 16px;
+  font-weight: 800;
+  color: white;
+}
+.overley p{
+  font-size: 13px;
+  font-weight: 400;
+  color: white;
+}
+.sunglas:hover .overley{
+transform: scale(1);
+opacity: 1;
+}
+
+/* Myworkpic end */
+
+/* contactme stard */
+.contactlist{
+  text-align: center;
+}
+
+
+.contactlist1 h1{
+  color: #02918c;
+  font-size: 46px;
+  font-weight: 800;
+  padding: 100px 0px 32px 0px;
+}
+.contactlist1 p{
+  font-size: 16px;
+  font-weight: 400;
+  columns: #7e8287;
+  padding-bottom: 32px;
+}
+.peragraph p{
+  color: #7e8287;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* contactme end */
+
+#from{
+  background-color: #0a0a0b;
+  padding: 70px 0px;
+  margin-top: 72px;
+  text-align: center;
+}
+#from  input{
+  margin: auto;
+  display: block;
+  width: 600px;
+  text-align: center;
+ 
+  background-color: transparent;
+  border: none;
+
+  border-bottom: 1px solid white;
+  padding: 10px;
+  margin-bottom: 60px;
+}
+
+.icon {
+  background-color: #cfc91d;
+  padding: 19px 65px;
+  font-size: 14px;
+  font-weight: 800;
+  color: #0b1016;
+  border: none;
+  letter-spacing: 2px;
+}
+  
+
+#lastpart{
+  background-color: #000000;
+ 
+  
+ 
+}
+
+#lastpart .parent p{
+  font-size: 12px;
+  font-weight: 400;
+  color: #7e8287;
+  align-items: center;
+  height: 70px;
+  text-align: center;
+  width: 100%;
+  padding: 35px 0px 30px 0px;
+}
+
